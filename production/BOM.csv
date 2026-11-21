@@ -1,0 +1,39 @@
+Qty,Value / Part,Footprint (100% THT),Designators,Socket / Assembly Notes
+2,100uF,CP_Radial_D8_P3.5mm,C3 C5,Through-hole
+1,10uF,CP_Radial_D8_P3.5mm,C7,Through-hole
+1,470uF,CP_Radial_D8_P3.5mm,C1,Through-hole
+14,100nF,C_Disc_P5.00mm,C2 C4 C6 C8 C9 C10 C_DAC1 C_DAC2 C11 C12 C13 C14 C15 C16,Through-hole
+1,EXT_5V_IN,Header_1x02_P2.54mm,J_5V,Through-hole
+1,PWR_SEL_3V3_5V,Header_1x03_P2.54mm,JP_PWR,Through-hole
+1,KELVIN_LEADS,Header_1x04_P2.54mm,J_KELVIN,Through-hole
+1,TEST_ACT,LED_D3mm_Blue,D2,Through-hole
+1,PWR_9V,LED_D3mm_Green,D1,Through-hole
+1,100uH,L_Axial_P12.7mm,L1,Through-hole
+4,10.0k_0.1%,R_Axial_P7.62mm,R_D1B R_D2B R_D3B R_D4B,Through-hole
+6,100k,R_Axial_P7.62mm,R_EN1 R_PD1 R_EN2 R_PD2 R_EN3 R_PD3,Through-hole
+3,100k_0.1%,R_Axial_P7.62mm,R_MB1 R_MB2 R_MB3,Through-hole
+9,10k,R_Axial_P7.62mm,R_ALRT R_BTN1 R_BTN2 R_DAC1 R_DAC2 R_ESD1 R_ESD2 R_ESD3 R_OEN,Through-hole
+2,10k_1%,R_Axial_P7.62mm,R_G1B R_G2B,Through-hole
+2,18k_1%,R_Axial_P7.62mm,R_G1A R_G2A,Through-hole
+4,1k,R_Axial_P7.62mm,R_LED2 R_G1 R_G2 R_G3,Through-hole
+3,2.20M_0.1%,R_Axial_P7.62mm,R_KB1 R_KB2 R_KB3,Through-hole
+6,2.49k_0.1%,R_Axial_P7.62mm,R_KA1 R_KG1 R_KA2 R_KG2 R_KA3 R_KG3,Through-hole
+4,20.0k_0.1%,R_Axial_P7.62mm,R_D1A R_D2A R_D3A R_D4A,Through-hole
+1,3.3k,R_Axial_P7.62mm,R_LED1,Through-hole
+3,4.7k,R_Axial_P7.62mm,R_SDA R_SCL R_TEMP,Through-hole
+6,470R_0.1%,R_Axial_P7.62mm,R_LA1 R_LG1 R_LA2 R_LG2 R_LA3 R_LG3,Through-hole
+1,MODE,SW_Tact_6mm,SW2,Through-hole
+1,TEST,SW_Tact_6mm,SW1,Through-hole
+1,DUT_3PIN_SKT,Socket_1x03_DUT,J_DUT3,1x03 machined gold SIP socket for quick transistor testing
+1,ADS1115_16Bit,Socket_ADS1115_Module,MOD_ADS,Use 1x 1x10 2.54mm female pin socket
+1,TLC274CN,Socket_DIP-14_W7.62mm,U4,14-pin machined DIP IC socket + IC seated inside
+2,74HC595N,Socket_DIP-16_W7.62mm,U6 U7,16-pin machined DIP IC socket + IC seated inside
+3,DG408DJ,Socket_DIP-16_W7.62mm,U1 U2 U3,16-pin machined DIP IC socket + IC seated inside
+1,LM358N,Socket_DIP-8_W7.62mm,U5,8-pin machined DIP IC socket + IC seated inside
+1,MT3608_12V,Socket_MT3608_Boost,MOD_BOOST,Use 4x single-pin machined sockets; TRIM TO 12.0V BEFORE INSERTING ICs!
+1,OLED_0.96_SSD1306,Socket_OLED_096,MOD_OLED,Use 1x 1x04 2.54mm female pin socket (GND-VCC-SCL-SDA)
+1,DS18B20_TEMP,Socket_TO92_3Pin,J_TEMP,1x03 machined gold SIP socket + TO-92 seated inside
+1,L78L09ACZ,Socket_TO92_3Pin,U_REG,1x03 machined gold SIP socket + TO-92 seated inside
+3,TN0702N3-G,Socket_TO92_3Pin,Q1 Q2 Q3,1x03 machined gold SIP socket + TO-92 seated inside
+1,WEMOS_LOLIN32_Lite,Socket_Wemos_Lolin32_Lite,U_ESP,Use 2x 1x13 2.54mm female pin sockets (22.86mm row spacing)
+1,ZIF-14_DUT,Socket_ZIF_14Pin,J_ZIF,14-pin 3M/Aries ZIF DIP socket (7.62mm row spacing)

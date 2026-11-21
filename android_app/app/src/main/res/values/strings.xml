@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KAOTI Ge-LAB PRO</string>
+    <string name="default_server_url">http://192.168.1.50:8080</string>
+    <string name="waiting_prompt">Listening for new ESP32 test on LAN…</string>
+    <string name="capture_btn">SNAP &amp; UPLOAD</string>
+    <string name="save_url">Save</string>
+</resources>

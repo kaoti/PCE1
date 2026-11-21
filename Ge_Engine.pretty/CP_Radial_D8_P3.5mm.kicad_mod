@@ -1,0 +1,27 @@
+(footprint "CP_Radial_D8_P3.5mm" (version 20240108) (generator "ge_engine_gen")
+  (layer "F.Cu")
+  (descr "THT Electrolytic Capacitor D8.0mm P3.50mm")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 1.75 -5.05) (layer "F.SilkS")
+    (effects (font (size 0.80 0.80) (thickness 0.15)))
+  )
+  (fp_text value "CP_Radial_D8_P3.5mm" (at 1.75 5.05) (layer "F.SilkS")
+    (effects (font (size 0.80 0.80) (thickness 0.15)))
+  )
+  (fp_circle (center 1.75 0) (end 5.95 0) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+  (fp_text user "+" (at -1.5 -1.8) (layer "F.SilkS") (effects (font (size 1.0 1.0) (thickness 0.15))))
+  (fp_line (start -2.60 -4.30) (end 6.10 -4.30) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start 6.10 -4.30) (end 6.10 4.30) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start 6.10 4.30) (end -2.60 4.30) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start -2.60 4.30) (end -2.60 -4.30) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+
+  (pad "1" thru_hole rect (at 0.00 0.00) (size 1.80 1.80) (drill 0.90) (layers "*.Cu" "*.Mask"))
+  (pad "2" thru_hole circle (at 3.50 0.00) (size 1.80 1.80) (drill 0.90) (layers "*.Cu" "*.Mask"))
+
+  (model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
+    (offset (xyz 0.000 0.000 0.000))
+    (scale (xyz 1.000 1.000 1.000))
+    (rotate (xyz 0.000 0.000 0.000))
+  )
+
+)

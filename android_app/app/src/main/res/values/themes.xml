@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KaotiGeLab" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/amber_ge</item>
+        <item name="colorOnPrimary">@color/bg_obsidian</item>
+        <item name="colorSecondary">@color/cyan_lab</item>
+        <item name="android:statusBarColor">@color/bg_obsidian</item>
+        <item name="android:navigationBarColor">@color/bg_obsidian</item>
+        <item name="android:windowBackground">@color/bg_obsidian</item>
+    </style>
+</resources>

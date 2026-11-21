@@ -1,0 +1,29 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.15
+      },
+      "rules": {
+        "min_clearance": 0.2,
+        "min_track_width": 0.25,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
+        "min_through_hole_diameter": 0.3
+      }
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": ["Ge_Engine"],
+    "pinned_symbol_libs": ["Ge_Engine"]
+  },
+  "meta": {
+    "filename": "Ge_Parametric_Engine.kicad_pro",
+    "version": 1
+  },
+  "schematic": {
+    "drawing": {
+      "default_line_thickness": 6.0
+    }
+  }
+}

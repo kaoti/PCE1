@@ -1,0 +1,131 @@
+#VRML V2.0 utf8
+# Generated for KAOTI Ge_Parametric_Engine
+
+Transform {
+  translation 0.0000 0.0000 -0.2953
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.780 0.800 0.820
+          specularColor 0.25 0.25 0.25
+          shininess 0.70
+          transparency 0.00
+        }
+      }
+      geometry Box { size 0.3543 0.1969 0.9843 }
+    }
+  ]
+}
+Transform {
+  translation 0.0000 -1.9685 -0.2953
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.780 0.800 0.820
+          specularColor 0.25 0.25 0.25
+          shininess 0.70
+          transparency 0.00
+        }
+      }
+      geometry Box { size 0.3543 0.1969 0.9843 }
+    }
+  ]
+}
+Transform {
+  translation 4.9213 0.0000 -0.2953
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.780 0.800 0.820
+          specularColor 0.25 0.25 0.25
+          shininess 0.70
+          transparency 0.00
+        }
+      }
+      geometry Box { size 0.3543 0.1969 0.9843 }
+    }
+  ]
+}
+Transform {
+  translation 4.9213 -1.9685 -0.2953
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.780 0.800 0.820
+          specularColor 0.25 0.25 0.25
+          shininess 0.70
+          transparency 0.00
+        }
+      }
+      geometry Box { size 0.3543 0.1969 0.9843 }
+    }
+  ]
+}
+Transform {
+  translation 2.4606 -0.9843 0.9843
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.120 0.120 0.130
+          specularColor 0.25 0.25 0.25
+          shininess 0.25
+          transparency 0.00
+        }
+      }
+      geometry Box { size 4.7244 4.7244 1.9685 }
+    }
+  ]
+}
+Transform {
+  translation 2.4606 -0.9843 2.0472
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.200 0.200 0.220
+          specularColor 0.25 0.25 0.25
+          shininess 0.30
+          transparency 0.00
+        }
+      }
+      geometry Box { size 2.9099 1.2054 0.2362 }
+    }
+  ]
+}
+Transform {
+  translation 2.4606 -0.9843 2.0472
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.200 0.200 0.220
+          specularColor 0.25 0.25 0.25
+          shininess 0.30
+          transparency 0.00
+        }
+      }
+      geometry Box { size 1.2054 2.9099 0.2362 }
+    }
+  ]
+}
+Transform {
+  translation 2.4606 -0.9843 3.0512
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.950 0.800 0.080
+          specularColor 0.25 0.25 0.25
+          shininess 0.45
+          transparency 0.00
+        }
+      }
+      geometry Box { size 3.7402 3.7402 2.1654 }
+    }
+  ]
+}

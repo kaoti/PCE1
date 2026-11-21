@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Ge_Engine")(type "KiCad")(uri "${KIPRJMOD}/Ge_Engine.kicad_sym")(options "")(descr "Custom symbols for Ge Parametric Engine"))
+)

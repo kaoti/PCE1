@@ -1,0 +1,27 @@
+(footprint "Buzzer_12mm" (version 20240108) (generator "ge_engine_gen")
+  (layer "F.Cu")
+  (descr "THT 12mm Buzzer RM7.6mm (Pin 1=+, Pin 2=-)")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 3.80 -7.40) (layer "F.SilkS")
+    (effects (font (size 0.80 0.80) (thickness 0.15)))
+  )
+  (fp_text value "Buzzer_12mm" (at 3.80 7.40) (layer "F.SilkS")
+    (effects (font (size 0.80 0.80) (thickness 0.15)))
+  )
+  (fp_circle (center 3.80 0.00) (end 10.00 0.00) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+  (fp_text user "+" (at -2.0 0.0) (layer "F.SilkS") (effects (font (size 0.85 0.85) (thickness 0.15))))
+  (fp_line (start -2.60 -6.50) (end 10.20 -6.50) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start 10.20 -6.50) (end 10.20 6.50) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start 10.20 6.50) (end -2.60 6.50) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start -2.60 6.50) (end -2.60 -6.50) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+
+  (pad "1" thru_hole rect (at 0.00 0.00) (size 1.90 1.90) (drill 1.00) (layers "*.Cu" "*.Mask"))
+  (pad "2" thru_hole circle (at 7.60 0.00) (size 1.90 1.90) (drill 1.00) (layers "*.Cu" "*.Mask"))
+
+  (model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.step"
+    (offset (xyz 0.000 0.000 0.000))
+    (scale (xyz 1.000 1.000 1.000))
+    (rotate (xyz 0.000 0.000 0.000))
+  )
+
+)

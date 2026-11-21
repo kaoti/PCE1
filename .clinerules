@@ -1,0 +1,17 @@
+# PCE1 Workspace Rules
+- Project root contains KiCad files (`Ge_Parametric_Engine.kicad_*`), `firmware/`, `webapp/`, `android_app/`, `artifacts/`, and `handoff/`.
+- Check `handoff/` and `artifacts/` (and `agent_state/` if present) first to establish current phase and gate status.
+- Read only the single file required for the active task; never bulk-load the repo into context.
+- Update the relevant markdown state/audit file in `artifacts/` whenever a design change or gate check completes.
+- Use `ge-swarm` MCP tools (`ask_mac_node`, `run_swarm_agent`) for heavy math verification, scouting, or parallel subtasks.
+
+## Autonomous Execution Rules
+- Never stop mid-file when read_file truncates output. Immediately read the remaining line ranges (e.g. 714-1467) until you have inspected the full file.
+- Never end a turn with a menu of options ("Would you like me to 1/2/3") while tasks remain. Execute the full task, run verification commands, and only call attempt_completion after all changes are tested and verified.
+- Local macOS KiCad libraries (if installed): /Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols and /Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints. Check those paths before claiming KiCad libraries are inaccessible.
+
+## Autonomous Execution Rules
+- Never stop mid-file when read_file truncates output. Immediately read the remaining line ranges (e.g. 714-1467) until you have inspected the full file.
+- Never end a turn with a menu of options ("Would you like me to 1/2/3") while tasks remain. Execute the full task, run verification commands, and only call attempt_completion after all changes are verified.
+- Keep internal reasoning concise; do not spend thousands of tokens deliberating on simple file reads or edits.
+- Local macOS KiCad libraries (if installed): /Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols and /Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints.
